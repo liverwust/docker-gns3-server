@@ -7,7 +7,7 @@ services:
         environment:
             - BRIDGE_ADDRESS=172.21.1.1/24
         volumes:
-            - /data/gns3:/data
+            - /data/gns3:/data/gns3
             - /var/run/docker.sock:/var/run/docker.sock
             - /root/.local/share/GNS3:/root/.local/share/GNS3
-        image: liverwust/gns3-server:3.0.5-liverwust1
+        image: liverwust/gns3-server:3.0.5-liverwust2
